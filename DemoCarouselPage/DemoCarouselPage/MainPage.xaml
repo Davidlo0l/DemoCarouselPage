@@ -3,7 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoCarouselPage"
              x:Class="DemoCarouselPage.MainPage">
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="github.png"></Image>
+                
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="github2.png"></Image>
 
-	
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="github3.png"></Image>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Image Source="github4.png"></Image>
+
+        </StackLayout>
+    </ContentPage>
+
+
+
 
 </CarouselPage>
